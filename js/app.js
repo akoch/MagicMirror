@@ -178,7 +178,7 @@ function App () {
 			}
 		}
 
-		const moduleFile = `${moduleFolder}/${module}.js`;
+		const moduleFile = `${moduleFolder}/${moduleName}.js`;
 
 		try {
 			fs.accessSync(moduleFile, fs.R_OK);
